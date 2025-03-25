@@ -37,9 +37,6 @@ public class UDPReceive : MonoBehaviour
             receiveThread.Abort();
         }
     }
-
-
-
     // receive thread
     private void ReceiveData()
     {
